@@ -1,5 +1,9 @@
-V/M BATCH V32 — Cân khoảng dòng
-Tải các tệp bên trong ZIP lên thư mục gốc GitHub Pages. Mở vm-batch-v32.html hoặc index.html.
-Cả 6 form dùng nhịp chân chữ đồng đều và khe an toàn cho dấu, đuôi chữ. Mặc định 112% nhịp dòng, 90% khe giữa dòng; cả hai điều chỉnh độ thoáng. Dấu câu kết thúc câu có thêm khe nhẹ; dòng trống nhập tay được giữ.
-Giữ 1.500 ký tự và ảnh gốc; chỉ cập nhật dấu phẩy trong từng form.
-Dấu phẩy: cập nhật cả 6 form. Trắng và đỏ dùng nét từ ảnh tham chiếu; bốn form còn lại căn lại nét ứng viên cùng form. Các ký tự khác giữ nguyên.
+VM BATCH V34 — Dùng nét từ ảnh gốc
+
+Giải nén rồi mở index.html hoặc vm-batch-v34.html. Nếu dùng GitHub Pages, tải các tệp trong ZIP lên thư mục gốc của trang hiện tại.
+
+Chế độ «Chỉ dùng nét có trong ảnh gốc» được bật mặc định cho từng JOB. Bản này dùng nét từ cùng một ảnh mẫu, gồm cả các từ có nét nối liền. Khi thiếu chữ hoặc dấu trong ảnh tham chiếu, phần xem trước liệt kê cụ thể những ký tự cần bổ sung. Cần thêm ảnh chữ gốc để mở rộng bộ nét. Bỏ chọn chế độ này nếu muốn dùng nét phục dựng.
+
+Nhập đúng nội dung mẫu với thiết lập mặc định để dùng lại chính ảnh gốc. «Tạo tất cả PNG» xuất ở chiều rộng 2160 px. Bật «Xuất đủ 3 tỷ lệ» để tạo ảnh 3:4, 1:1 và 9:16 cho mỗi JOB.
+
+Đã kiểm tra trên Chromium với giao diện di động.
