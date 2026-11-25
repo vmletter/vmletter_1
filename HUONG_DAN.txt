@@ -1,4 +1,3 @@
-VM BATCH V14
-Tải tất cả file vào thư mục gốc repository. Mở /vmletter_1/vm-batch-v14.html.
-Nhân bản: tạo JOB mới ngay dưới JOB gốc, cùng ảnh, nét, nội dung và thông số. Có thể sửa chữ độc lập.
-Chọn JOB ở phần xem trước hoặc nhập chữ vào JOB muốn chỉnh, rồi bấm Xem ảnh.
+VM BATCH V16
+Tải các file trong ZIP lên thư mục gốc repository vmletter_1. Mở vm-batch-v16.html sau khi Actions thành công.
+6 form V2: 250 ký tự mỗi form; dùng dữ liệu vector hóa từ alpha atlas người dùng cung cấp. Nét phục dựng không phải font gốc. Không hỗ trợ mọi emoji. Bỏ chọn bộ đầy đủ để dùng nét gốc V15. 6 mẫu thử để trống.
