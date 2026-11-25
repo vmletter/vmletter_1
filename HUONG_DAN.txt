@@ -1,5 +1,5 @@
-VM BATCH V10 — FIX Y / RELOAD / SMART RATIO
+VM BATCH V11 — FIX Y / RELOAD / SMART RATIO
 Giải nén ZIP, tải tất cả file ở cấp gốc repository vmletter_1 (không tải nguyên thư mục).
 Chờ Actions tích xanh rồi mở https://vmletter.github.io/vmletter_1/vm-batch-v10.html bằng Safari Riêng tư.
-Giao diện phải có V10 ngay trên nút Xem ảnh. Nếu vẫn ra V7/V19.1, kiểm tra tên file vm-batch-v10.html trên GitHub hoặc xóa dữ liệu vmletter.github.io trong Safari (có thể mất dữ liệu cục bộ của app cũ).
-Nút Xem ảnh duy nhất, tỷ lệ bên cạnh 3:4 mặc định, 1:1, 9:16. Chữ y được lấy từ thành phần đầy đủ của ảnh trắng gốc; không mượn mẫu. V10 cần mạng để tải trang; xử lý ảnh trên thiết bị.
+Giao diện phải có V11 ngay trên nút Xem ảnh. Nếu vẫn ra V7/V19.1, kiểm tra tên file vm-batch-v10.html trên GitHub hoặc xóa dữ liệu vmletter.github.io trong Safari (có thể mất dữ liệu cục bộ của app cũ).
+Nút Xem ảnh duy nhất, tỷ lệ bên cạnh 3:4 mặc định, 1:1, 9:16. Chữ y được lấy từ thành phần đầy đủ của ảnh trắng gốc; không mượn mẫu. V11 cần mạng để tải trang; xử lý ảnh trên thiết bị.
