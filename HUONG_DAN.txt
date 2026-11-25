@@ -1,3 +1,5 @@
-VM BATCH V16
-Tải các file trong ZIP lên thư mục gốc repository vmletter_1. Mở vm-batch-v16.html sau khi Actions thành công.
-6 form V2: 250 ký tự mỗi form; dùng dữ liệu vector hóa từ alpha atlas người dùng cung cấp. Nét phục dựng không phải font gốc. Không hỗ trợ mọi emoji. Bỏ chọn bộ đầy đủ để dùng nét gốc V15. 6 mẫu thử để trống.
+VM BATCH V19 – LOGO MỚI
+Giải nén ZIP, tải các file vào thư mục gốc repository vmletter_1 (không tải cả thư mục).
+Khi Actions thành công, mở https://vmletter.github.io/vmletter_1/vm-batch-v19-logo.html bằng Safari.
+Nếu biểu tượng cũ còn trên màn hình chính, xóa lối tắt cũ rồi dùng Chia sẻ > Thêm vào màn hình chính > Thêm. Tên mặc định: VM BATCH. Xóa lối tắt có thể làm mất dữ liệu cục bộ; lưu các ảnh/nội dung cần giữ trước.
+Chỉ thay biểu tượng và thông tin cài đặt web app; dữ liệu form chữ và logic xử lý V19 giữ nguyên.
