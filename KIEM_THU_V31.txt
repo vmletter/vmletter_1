@@ -1,0 +1,2 @@
+V31 kiểm tra dữ liệu 6 mẫu: tất cả ký tự trong gói bổ sung .,?!!’”@&₫)(;:/-1234567890 đều có thể render ở cả 6 form.
+Một phần ký tự là nét quan sát trực tiếp từ ảnh nguồn, phần còn lại là nét phục dựng cùng form để hạn chế sai kiểu chữ.

@@ -1,0 +1,1 @@
+Chromium: 1488 nét không rỗng đã gọi paintGlyph; 54 ảnh HD dựng với 6 form, 3 tỷ lệ, 3 nội dung. 0 pageerror. 12 ký tự khoảng trắng không có path. Chưa thử trực tiếp Safari iPhone.

@@ -1,0 +1,119 @@
+[
+  {
+    "form": "FORM_06",
+    "inventory": 250,
+    "candidate_count": 39,
+    "updated": [
+      "ê",
+      ",",
+      "D",
+      "r",
+      "?",
+      "E",
+      "m",
+      "é",
+      "x",
+      "e",
+      "k",
+      "v"
+    ],
+    "skipped_aspect": [],
+    "original_body_preserved": 57,
+    "total_renderable": 250
+  },
+  {
+    "form": "FORM_05",
+    "inventory": 250,
+    "candidate_count": 34,
+    "updated": [
+      ".",
+      "ư",
+      ",",
+      "d",
+      "ị",
+      "u",
+      "b",
+      "i",
+      "ó"
+    ],
+    "skipped_aspect": [],
+    "original_body_preserved": 53,
+    "total_renderable": 250
+  },
+  {
+    "form": "FORM_04",
+    "inventory": 250,
+    "candidate_count": 42,
+    "updated": [
+      ",",
+      "L",
+      "ư",
+      "ờ",
+      ":",
+      "C",
+      "k",
+      "M",
+      "ự",
+      "."
+    ],
+    "skipped_aspect": [],
+    "original_body_preserved": 71,
+    "total_renderable": 250
+  },
+  {
+    "form": "FORM_03",
+    "inventory": 250,
+    "candidate_count": 35,
+    "updated": [
+      "ú",
+      ",",
+      "r",
+      "T",
+      "ờ",
+      "p",
+      "ơ",
+      "ủ",
+      "D",
+      "ù"
+    ],
+    "skipped_aspect": [
+      ":"
+    ],
+    "original_body_preserved": 65,
+    "total_renderable": 250
+  },
+  {
+    "form": "FORM_02",
+    "inventory": 250,
+    "candidate_count": 21,
+    "updated": [
+      "K",
+      "g",
+      "q",
+      "u",
+      "y",
+      "v",
+      "ề",
+      ",",
+      "ệ"
+    ],
+    "skipped_aspect": [],
+    "original_body_preserved": 61,
+    "total_renderable": 250
+  },
+  {
+    "form": "FORM_01",
+    "inventory": 250,
+    "candidate_count": 20,
+    "updated": [
+      "N",
+      "x",
+      "đ",
+      "b",
+      ","
+    ],
+    "skipped_aspect": [],
+    "original_body_preserved": 59,
+    "total_renderable": 250
+  }
+]

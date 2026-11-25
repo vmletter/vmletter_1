@@ -1,4 +1,4 @@
-VM BATCH V28 — 6 ảnh mẫu PNG sạch từ ORIGINAL.jpeg của bộ form V3.
-Giải nén và tải tất cả tệp trong thư mục này lên thư mục gốc repository vmletter_1.
-Mở https://vmletter.github.io/vmletter_1/vm-batch-v28.html sau khi GitHub Pages triển khai.
-Giữ nguyên các chức năng và dữ liệu nét chữ V26.
+VM BATCH V31
+Tải toàn bộ file lên GitHub Pages. Mở vm-batch-v31.html hoặc index.html.
+Bộ 6 form giữ riêng 250 ký tự mỗi form. V31 đã rà soát thêm bộ dấu câu/ký hiệu/số: .,?!!’”@&₫)(;:/- và 0-9 cho cả 6 mẫu.
+Dấu thanh được dựng lại trên nét nền cùng form. Những ký tự không có ảnh gốc trực tiếp được giữ bằng nét phục dựng cùng form để tránh sai form; vẫn nên đối chiếu trực quan khi dùng câu dài.
