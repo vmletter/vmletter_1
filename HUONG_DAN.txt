@@ -1,5 +1,3 @@
-VM BATCH V19 – LOGO MỚI
-Giải nén ZIP, tải các file vào thư mục gốc repository vmletter_1 (không tải cả thư mục).
-Khi Actions thành công, mở https://vmletter.github.io/vmletter_1/vm-batch-v19-logo.html bằng Safari.
-Nếu biểu tượng cũ còn trên màn hình chính, xóa lối tắt cũ rồi dùng Chia sẻ > Thêm vào màn hình chính > Thêm. Tên mặc định: VM BATCH. Xóa lối tắt có thể làm mất dữ liệu cục bộ; lưu các ảnh/nội dung cần giữ trước.
-Chỉ thay biểu tượng và thông tin cài đặt web app; dữ liệu form chữ và logic xử lý V19 giữ nguyên.
+V/M BATCH V21 – LOGO NGANG
+Tải tất cả file trong ZIP vào thư mục gốc repo vmletter_1. Mở https://vmletter.github.io/vmletter_1/vm-batch-v21.html.
+Logo ngang 900×300 px đặt giữa header, không đổi icon màn hình chính. Nút sáng/tối và chức năng xử lý ảnh giữ nguyên V20. Đường dẫn V20 cũng được cập nhật để tránh mở bản cũ.
