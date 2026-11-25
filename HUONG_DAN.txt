@@ -1,3 +1,4 @@
-VM BATCH V7 — ORIGINAL LOCK VECTOR HD
-Giải nén và tải tất cả file ở cấp gốc repository GitHub Pages. Mở index.html?v=700.
-Mỗi form khóa theo ảnh nguồn; không mượn chữ. 6 hồ sơ từ ZIP đính kèm được tích hợp. Nền 6 mẫu làm mịn chuyển sắc, không giữ nhiễu gốc. Mặc định căn giữa 50%, PNG 2160 px, 3 tỷ lệ. Ký tự thiếu báo lỗi, ảnh lạ cần trích nét. Vector xấp xỉ, không cam kết 100%.
+VM BATCH V9 — ORIGINAL LOCK VECTOR HD
+Tải đè toàn bộ file vào thư mục gốc repository. Mở index.html?v=900.
+Tỷ lệ nằm cạnh nút Xem ảnh. Mỗi JOB mặc định 3:4, chọn 1:1 hoặc 9:16 để xem và xuất đúng tỷ lệ. Chọn Xuất đủ 3 tỷ lệ nếu muốn xuất cả ba. Giữ nguyên thuật toán nét chữ V8, xuất PNG ngang 2160px.
+Không tự tạo ký tự thiếu, không mượn form chữ.
