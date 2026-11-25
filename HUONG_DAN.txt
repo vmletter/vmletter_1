@@ -1,4 +1,4 @@
-VM BATCH V27 — 6 ảnh mẫu PNG sạch từ ORIGINAL.jpeg của bộ form V3.
+VM BATCH V28 — 6 ảnh mẫu PNG sạch từ ORIGINAL.jpeg của bộ form V3.
 Giải nén và tải tất cả tệp trong thư mục này lên thư mục gốc repository vmletter_1.
-Mở https://vmletter.github.io/vmletter_1/vm-batch-v27.html sau khi GitHub Pages triển khai.
+Mở https://vmletter.github.io/vmletter_1/vm-batch-v28.html sau khi GitHub Pages triển khai.
 Giữ nguyên các chức năng và dữ liệu nét chữ V26.
