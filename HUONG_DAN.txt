@@ -1,0 +1,5 @@
+VM BATCH iPHONE V4
+Giải nén và thay toàn bộ file tại thư mục gốc GitHub Pages.
+Mở Safari sau khi GitHub Pages triển khai. Kiểm tra tiêu đề V4. Nếu còn bản cũ, mở tab riêng tư hoặc xóa dữ liệu trang web.
+Đã xóa khối cấu hình tỷ lệ/font và mã font iPhone, nạp font. Xuất mặc định PNG ngang 1080 px, 3 tỷ lệ 3:4, 1:1, 9:16.
+Giữ cơ chế nét chữ mẫu V2, không cam kết trùng 100% với chữ gốc.
