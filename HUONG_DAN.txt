@@ -1,3 +1,6 @@
 V/M BATCH V21 – LOGO NGANG
 Tải tất cả file trong ZIP vào thư mục gốc repo vmletter_1. Mở https://vmletter.github.io/vmletter_1/vm-batch-v21.html.
 Logo ngang 900×300 px đặt giữa header, không đổi icon màn hình chính. Nút sáng/tối và chức năng xử lý ảnh giữ nguyên V20. Đường dẫn V20 cũng được cập nhật để tránh mở bản cũ.
+
+
+V22: xoá viền nền đen quanh logo header, siết khoảng cách chữ/dòng, nới khung chữ cho cả 6 mẫu.
