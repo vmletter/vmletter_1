@@ -1,6 +1,8 @@
-VM BATCH V34 — Dùng nét từ ảnh gốc
+VM BATCH V34.1 — Dùng nét từ ảnh gốc
 
 Giải nén rồi mở index.html hoặc vm-batch-v34.html. Nếu dùng GitHub Pages, tải các tệp trong ZIP lên thư mục gốc của trang hiện tại.
+
+Bấm «Các mẫu», chạm ảnh muốn chọn rồi bấm «Thêm mẫu». Ảnh gốc hiện trong phần xem trước và ô nhập chữ sẵn sàng để bạn nhập nội dung mới.
 
 Chế độ «Chỉ dùng nét có trong ảnh gốc» được bật mặc định cho từng JOB. Bản này dùng nét từ cùng một ảnh mẫu, gồm cả các từ có nét nối liền. Khi thiếu chữ hoặc dấu trong ảnh tham chiếu, phần xem trước liệt kê cụ thể những ký tự cần bổ sung. Cần thêm ảnh chữ gốc để mở rộng bộ nét. Bỏ chọn chế độ này nếu muốn dùng nét phục dựng.
 
