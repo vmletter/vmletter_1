@@ -1,3 +1,4 @@
-V25: Tải tất cả file trong ZIP vào thư mục gốc repository GitHub. Mở vm-batch-v25.html. Chọn Các mẫu, tích từng mẫu rồi bấm Thêm. Màu nền và màu chữ chỉnh riêng từng JOB ở phần 02; có thể nhập HEX, dùng Khôi phục màu gốc để giữ nền chuyển sắc ban đầu. Nhân bản giữ màu và form nhưng để trống nội dung. PNG 2160 px. Không tự học font mới ngoài sáu form.
-
-V25: Thay logo ngang bằng PNG HD nền trong suốt từ ZIP mới. Icon màn hình chính không đổi.
+VM BATCH V27 — 6 ảnh mẫu PNG sạch từ ORIGINAL.jpeg của bộ form V3.
+Giải nén và tải tất cả tệp trong thư mục này lên thư mục gốc repository vmletter_1.
+Mở https://vmletter.github.io/vmletter_1/vm-batch-v27.html sau khi GitHub Pages triển khai.
+Giữ nguyên các chức năng và dữ liệu nét chữ V26.
