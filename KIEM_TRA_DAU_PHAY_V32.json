@@ -1,0 +1,152 @@
+[
+  {
+    "form": "FORM_06",
+    "source": "V32: dấu phẩy tách trực tiếp từ ảnh mẫu FORM_06, thành phần 24.",
+    "old": {
+      "bounds": [
+        3.0,
+        3.0,
+        19.353,
+        36.27
+      ],
+      "top": -14.087,
+      "advance": 23.511
+    },
+    "new": {
+      "bounds": [
+        3.0,
+        3.0,
+        30.645,
+        58.289
+      ],
+      "top": -17.149,
+      "advance": 35.099,
+      "kind": "source_body"
+    }
+  },
+  {
+    "form": "FORM_05",
+    "source": "V32: cân dấu phẩy ứng viên riêng của form theo thân chữ và đường chân chữ; không có dấu phẩy trực tiếp trong ảnh mẫu gốc.",
+    "old": {
+      "bounds": [
+        3.0,
+        3.234,
+        19.873,
+        33.935
+      ],
+      "top": -13.055,
+      "advance": 23.859
+    },
+    "new": {
+      "bounds": [
+        3,
+        3,
+        19.873,
+        39.446
+      ],
+      "top": -14.634,
+      "advance": 24.144,
+      "kind": "reconstructed_punctuation"
+    }
+  },
+  {
+    "form": "FORM_04",
+    "source": "V32: dấu phẩy tách trực tiếp từ ảnh mẫu FORM_04, thành phần 28.",
+    "old": {
+      "bounds": [
+        3.273,
+        3.0,
+        14.436,
+        23.965
+      ],
+      "top": -9.778,
+      "advance": 17.249
+    },
+    "new": {
+      "bounds": [
+        3.0,
+        3.0,
+        16.084,
+        27.299
+      ],
+      "top": -13.245,
+      "advance": 19.098,
+      "kind": "source_body"
+    }
+  },
+  {
+    "form": "FORM_03",
+    "source": "V32: cân dấu phẩy ứng viên riêng của form theo thân chữ và đường chân chữ; không có dấu phẩy trực tiếp trong ảnh mẫu gốc.",
+    "old": {
+      "bounds": [
+        3.0,
+        3.0,
+        20.995,
+        33.742
+      ],
+      "top": -13.057,
+      "advance": 25.121
+    },
+    "new": {
+      "bounds": [
+        3,
+        3,
+        20.995,
+        40.721
+      ],
+      "top": -14.894,
+      "advance": 25.415,
+      "kind": "reconstructed_punctuation"
+    }
+  },
+  {
+    "form": "FORM_02",
+    "source": "V32: cân dấu phẩy ứng viên riêng của form theo thân chữ và đường chân chữ; không có dấu phẩy trực tiếp trong ảnh mẫu gốc.",
+    "old": {
+      "bounds": [
+        3.0,
+        3.0,
+        18.32,
+        30.236
+      ],
+      "top": -12.07,
+      "advance": 21.775
+    },
+    "new": {
+      "bounds": [
+        3,
+        3,
+        18.32,
+        34.584
+      ],
+      "top": -13.048,
+      "advance": 22.021,
+      "kind": "reconstructed_punctuation"
+    }
+  },
+  {
+    "form": "FORM_01",
+    "source": "V32: cân dấu phẩy ứng viên riêng của form theo thân chữ và đường chân chữ; không có dấu phẩy trực tiếp trong ảnh mẫu gốc.",
+    "old": {
+      "bounds": [
+        3.0,
+        3.187,
+        17.179,
+        29.12
+      ],
+      "top": -11.623,
+      "advance": 20.727
+    },
+    "new": {
+      "bounds": [
+        3,
+        3,
+        17.697,
+        35.435
+      ],
+      "top": -12.987,
+      "advance": 21.498,
+      "kind": "reconstructed_punctuation"
+    }
+  }
+]
