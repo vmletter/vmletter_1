@@ -1,3 +1,3 @@
-VM BATCH V6 - ORIGINAL LOCK
-Tải các file lên GitHub Pages tại thư mục root. Mở Safari qua HTTPS.
-Mỗi JOB chỉ dùng nét từ chính ảnh gốc. 6 mẫu có sẵn bộ ký tự riêng, nhận diện bằng dữ liệu ảnh trùng khớp. Với ảnh khác hoặc ký tự thiếu, dùng Bổ sung nét từ ảnh gốc, chạm hai góc rồi chạm chân chữ, nhập ký tự và lưu. Không thể tạo ký tự chưa có trong ảnh nếu không có font gốc/mẫu bổ sung. Không trộn nét từ JOB khác. Xuất 3 tỷ lệ 1080 px. Nền đơn giản được phục hồi gần đúng.
+VM BATCH V7 — ORIGINAL LOCK VECTOR HD
+Giải nén và tải tất cả file ở cấp gốc repository GitHub Pages. Mở index.html?v=700.
+Mỗi form khóa theo ảnh nguồn; không mượn chữ. 6 hồ sơ từ ZIP đính kèm được tích hợp. Nền 6 mẫu làm mịn chuyển sắc, không giữ nhiễu gốc. Mặc định căn giữa 50%, PNG 2160 px, 3 tỷ lệ. Ký tự thiếu báo lỗi, ảnh lạ cần trích nét. Vector xấp xỉ, không cam kết 100%.
