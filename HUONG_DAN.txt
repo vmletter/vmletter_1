@@ -1,4 +1,5 @@
-VM BATCH V9 — ORIGINAL LOCK VECTOR HD
-Tải đè toàn bộ file vào thư mục gốc repository. Mở index.html?v=900.
-Tỷ lệ nằm cạnh nút Xem ảnh. Mỗi JOB mặc định 3:4, chọn 1:1 hoặc 9:16 để xem và xuất đúng tỷ lệ. Chọn Xuất đủ 3 tỷ lệ nếu muốn xuất cả ba. Giữ nguyên thuật toán nét chữ V8, xuất PNG ngang 2160px.
-Không tự tạo ký tự thiếu, không mượn form chữ.
+VM BATCH V10 — FIX Y / RELOAD / SMART RATIO
+Giải nén ZIP, tải tất cả file ở cấp gốc repository vmletter_1 (không tải nguyên thư mục).
+Chờ Actions tích xanh rồi mở https://vmletter.github.io/vmletter_1/vm-batch-v10.html bằng Safari Riêng tư.
+Giao diện phải có V10 ngay trên nút Xem ảnh. Nếu vẫn ra V7/V19.1, kiểm tra tên file vm-batch-v10.html trên GitHub hoặc xóa dữ liệu vmletter.github.io trong Safari (có thể mất dữ liệu cục bộ của app cũ).
+Nút Xem ảnh duy nhất, tỷ lệ bên cạnh 3:4 mặc định, 1:1, 9:16. Chữ y được lấy từ thành phần đầy đủ của ảnh trắng gốc; không mượn mẫu. V10 cần mạng để tải trang; xử lý ảnh trên thiết bị.
