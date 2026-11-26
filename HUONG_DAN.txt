@@ -1,13 +1,11 @@
-VM BATCH V38
+VM BATCH V39 — Nền Trắng
 
-Giải nén ZIP rồi mở index.html. Trên iPhone, giải nén trong ứng dụng Tệp. Ở thư mục gốc của repo GitHub, chọn Add file → Upload files rồi chọn tất cả các tệp đã giải nén. Bấm Commit changes để lưu vào nhánh dùng cho GitHub Pages.
+Trên iPhone, mở ZIP trong Tệp để giải nén. Trong repo GitHub, chọn Add file → Upload files, chọn tất cả các tệp đã giải nén ở thư mục gốc, rồi bấm Commit changes. Trang chính là index.html.
 
-Sáu form có sẵn. Bấm «Các mẫu», chọn ảnh rồi bấm «Thêm mẫu». Web dùng nét gốc trước. Khi thiếu nét, web dựng phần bổ sung mới theo chiều cao, độ rộng và kiểu nét của mẫu. Bật «Chỉ dùng nét có trong ảnh gốc» ở một JOB nếu muốn giới hạn JOB đó ở các nét đã có trong ảnh.
+Bấm «Thêm mẫu Nền Trắng» để tạo JOB từ ảnh mẫu đã gửi. Ảnh gốc hiện ngay trong phần xem trước. Gõ chữ mới trong JOB rồi bấm «Xem ảnh». Bộ chữ được lấy trực tiếp từ bốn PNG đính kèm, gồm chữ hoa, chữ thường, số, ký hiệu và dấu tiếng Việt. Các ký tự chưa có trong bảng được liệt kê khi xem ảnh.
 
-Ảnh riêng. Bấm «Chọn nhiều ảnh» để tải ảnh lên. Trong từng JOB, mở «Lấy nét chữ từ ảnh tải lên», nhập nội dung có sẵn trong ảnh đúng khoảng trắng và cách xuống dòng, rồi bấm «Lấy nét gốc». Web có thể lấy cả từ và các chữ tách riêng trên ảnh rõ, thẳng và nền đều. Đặt nội dung mới ở ô «Nhập chữ mới cho ảnh này», sau đó bấm «Xem ảnh». Chữ chưa có mẫu được bổ sung theo đặc điểm đo được từ ảnh. Nét bổ sung có thể khác chữ viết gốc.
+Ảnh tham chiếu gốc ở mau-nen-trang.jpg. Nếu nhập đúng nội dung ảnh mẫu với thiết lập mặc định, V39 dùng lại ảnh mẫu. Mở bang-chu-nen-trang.html để xem bốn bảng chữ.
 
-Bộ chữ mỗi form gồm 186 chữ hoa và thường, bao gồm đầy đủ 12 nhóm nguyên âm tiếng Việt với sáu thanh, Đ/đ và các chữ Latin. Ngoài ra có 10 chữ số, toàn bộ ký hiệu ASCII và các dấu thông dụng như ₫, …, “ ”, « », ×, ÷, –, —. Bảng minh họa ở bang-chu-v35.html. Sáu ảnh gốc có tên bắt đầu bằng anh-goc-v35-.
+Có thể thêm nhiều JOB, đổi nội dung, màu và khoảng cách dòng. «Tạo tất cả PNG» xuất ảnh rộng 2160 px theo tỷ lệ 3:4, 1:1 hoặc 9:16. Bật «Xuất đủ 3 tỷ lệ» để lấy cả ba kích thước. Bấm «Chia sẻ ZIP» để lưu các PNG.
 
-Cả sáu mẫu dùng lề, cỡ chữ và nhịp dòng theo tỷ lệ ảnh tham chiếu Be. Các dòng bạn nhập được giữ làm điểm ngắt. Dòng quá dài được tự chia theo từ. Khoảng ngắt câu lấy từ ảnh tham chiếu trắng. Dấu chấm, hỏi, than và chấm lửng ngắt câu. Nếu dừng một dòng ở dấu phẩy, vế tiếp theo có khoảng ngắt nhẹ. V38 tự nhận các cách mở câu như “Vậy tại sao” kể cả khi bạn gõ liền. Chữ hoa bổ sung của các form Đen, Hồng, Navy và Be có thêm nét được tạo từ chữ thường quan sát được trong đúng ảnh mẫu.
-
-«Tạo tất cả PNG» xuất ảnh rộng 2160 px. Có thể xuất tỷ lệ 3:4, 1:1 hoặc 9:16, rồi chọn «Chia sẻ ZIP».
+Ảnh bạn tự tải lên dùng form Nền Trắng. Nếu cần ưu tiên nét tách từ ảnh đó, mở «Lấy nét chữ từ ảnh tải lên» và nhập nội dung đang có trong ảnh theo từng dòng.

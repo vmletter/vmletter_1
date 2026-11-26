@@ -1,7 +1,7 @@
 {
   "name": "VM BATCH",
   "short_name": "VM BATCH",
-  "start_url": "./vm-batch-v38.html",
+  "start_url": "./vm-batch-v39.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#10141e",
