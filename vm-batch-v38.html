@@ -95,8 +95,18 @@ const sourceInk=JSON.parse($('sourceInk').textContent);
 const sourceSheets=[];
 const sourceWordSets=sourceInk.map((form,i)=>{
  if(form.id!==vnForms[i].id)throw Error('Sai ảnh nét gốc');
- return new Map(Object.entries(form.words));
+ const words=new Map(Object.entries(form.words));
+ if(form.id==='FORM_03'&&words.has('mình')){
+  // Match the lowercase body of this smaller crop to the other Navy letters.
+  words.set('mình',scaleInk(words.get('mình'),1.12,1.12));
+ }
+ return words;
 });
+function scaleInk(ink,sx,sy){
+ const [l,t,r,b]=ink.bounds;
+ return {...ink,w:ink.w*sx,h:ink.h*sy,top:ink.top*sy,
+  advance:ink.advance*sx,bounds:[l*sx,t*sy,r*sx,b*sy]};
+}
 const sourceLetterSets=sourceInk.map(form=>new Map(Object.entries(form.letters)));
 const sourceMarkSets=sourceInk.map(form=>new Map(Object.entries(form.marks||{})));
 const sourceSheetLoads=new Map();
@@ -284,6 +294,29 @@ function supplementStyle(j,base){
   weight:Math.max(1.8,j.learned?.weight??((profile(j)?.stroke.median_diameter_relative_to_width||0)*760||sy*8.4*shape.weight))
  };
 }
+function lowerTonePosition(ctx,c,x,y,z,center,markWidth,markHeight,sy,tailWidth){
+ const {data}=ctx.getImageData(0,0,c.width,c.height);
+ const gap=Math.max(1.5,sy*3);
+ const preferredY=sy*5+markHeight/2;
+ for(let dy=preferredY;dy<=((c.height-y)/z)-markHeight/2;dy+=1){
+  // A descending y leaves room to the left of its tail near the baseline.
+  const shift=dy<preferredY+sy*23?tailWidth*.42:0;
+  for(let dx=center;dx>=center-shift;dx-=1){
+   const left=Math.max(0,Math.floor(x+(dx-markWidth/2-gap)*z));
+   const right=Math.min(c.width,Math.ceil(x+(dx+markWidth/2+gap)*z));
+   const top=Math.max(0,Math.floor(y+(dy-markHeight/2-gap)*z));
+   const bottom=Math.min(c.height,Math.ceil(y+(dy+markHeight/2+gap)*z));
+   let clear=true;
+   for(let row=top;row<bottom&&clear;row++){
+    for(let col=left;col<right;col++){
+     if(data[(row*c.width+col)*4+3]>24){clear=false;break}
+    }
+   }
+   if(clear)return [dx,dy];
+  }
+ }
+ throw Error('Không đủ chỗ cho dấu nặng');
+}
 function makeSupplement(j,ch){
  let cache=supplementCache.get(j);
  if(!cache){cache=new Map();supplementCache.set(j,cache)}
@@ -300,14 +333,22 @@ function makeSupplement(j,ch){
  if(observed)pieces.splice(pieces.indexOf(structural),1);
  else if(base!=='i'||pieces.every(m=>m==='\u0323'))observed=fromSource(base);
  else if(!j.ownGlyphs.has('i'))observed=sourceInk[j.sourceIndex]?.dotlessI;
- if(!observed&&!j.ownGlyphs.size)observed=sourceInk[j.sourceIndex]?.derivedCaps?.[base];
+ if(!observed&&!j.ownGlyphs.size){
+  observed=sourceInk[j.sourceIndex]?.derivedCaps?.[base];
+  if(base==='C'&&observed&&observed.w<observed.h*.83){
+   observed=scaleInk(observed,observed.h*.83/observed.w,1);
+  }
+ }
+ const hasLowerTone=pieces.includes('\u0323');
+ const lowerMark=sourceMarkSets[j.sourceIndex]?.get('\u0323');
  const {sx,sy,slant,weight}=supplementStyle(j,base), outline=newStrokes[base];
  const z=2,unit=Math.max(sx,sy);
  const x=Math.ceil(z*(34*unit+weight));
  const markHeight=pieces.reduce((sum,mark)=>sum+(sourceMarkSets[j.sourceIndex]?.get(mark)?.h??0),0);
  const y=Math.ceil(z*(Math.max(-(observed?.top??0),113*sy)+68*sy+markHeight+weight));
  const rightEdge=Math.max(observed?.w??0,(outline?.[0]??0)*sx)+45*unit+weight;
- const bottomEdge=Math.max(observed?observed.top+observed.h:0,49*sy)+weight;
+ const bottomEdge=Math.max(observed?observed.top+observed.h:0,49*sy)+weight+
+  (hasLowerTone?(lowerMark?.h??weight)+sy*6+3:0);
  const c=canvas(x+Math.ceil(rightEdge*z),y+Math.ceil(bottomEdge*z));
  const ctx=c.getContext('2d',{willReadFrequently:true});
  ctx.scale(z,z);
@@ -339,14 +380,15 @@ function makeSupplement(j,ch){
   top=-(/[A-Z0-9lkhdbft]/.test(base)?96:69)*sy;
   w=advance*sx+weight*.7;
  }
- let up=top-sy*9;
+ let up=top-sy*5;
  ctx.lineWidth=weight*.80;
  for(const mark of pieces){
+  if(mark==='\u0323')continue;
   const original=sourceMarkSets[j.sourceIndex]?.get(mark);
   if(original){
-   const y=mark==='\u0323'?sy*13-original.h/2:up-original.h;
-   paintInk(ctx,original,center-original.w/2,y);
-   if(mark==='\u0302'||mark==='\u0306')up-=original.h+sy*7;
+   const shift=structural==='\u0302'&&mark==='\u0301'?sx*8:0;
+   paintInk(ctx,original,center+shift-original.w/2,up-original.h);
+   if(mark==='\u0302'||mark==='\u0306')up-=original.h+sy*4;
    continue;
   }
   ctx.beginPath();
@@ -369,10 +411,18 @@ function makeSupplement(j,ch){
    ctx.moveTo(center-sx*16,up);ctx.bezierCurveTo(center-sx*6,up-sy*15,center+sx*4,up+sy*11,center+sx*16,up-sy*6);
   }else if(mark==='\u0309'){
    ctx.moveTo(center-sx*5,up-sy*12);ctx.bezierCurveTo(center+sx*9,up-sy*24,center+sx*17,up-sy*8,center+sx*3,up-sy*3);
-  }else if(mark==='\u0323'){
-   ctx.arc(center,sy*13,weight*.50,0,Math.PI*2);ctx.fill();continue;
   }
   ctx.stroke();
+ }
+ if(hasLowerTone){
+  const w=lowerMark?.w??weight,h=lowerMark?.h??weight;
+  const [dotX,dotY]=lowerTonePosition(ctx,c,x,y,z,center,w,h,sy,base==='y'?right:0);
+  if(lowerMark)paintInk(ctx,lowerMark,dotX-w/2,dotY-h/2);
+  else{
+   ctx.beginPath();
+   ctx.arc(dotX,dotY,weight*.50,0,Math.PI*2);
+   ctx.fill();
+  }
  }
  const pixels=ctx.getImageData(0,0,c.width,c.height).data;
  let l=c.width,t=c.height,r=0,b=0;
