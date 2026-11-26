@@ -1,11 +1,11 @@
-VM BATCH V34.1 — Dùng nét từ ảnh gốc
+VM BATCH V35
 
-Giải nén rồi mở index.html hoặc vm-batch-v34.html. Nếu dùng GitHub Pages, tải các tệp trong ZIP lên thư mục gốc của trang hiện tại.
+Giải nén ZIP rồi mở index.html. Để cập nhật GitHub Pages, đưa các tệp và hai thư mục bên trong ZIP lên thư mục gốc của trang.
 
-Bấm «Các mẫu», chạm ảnh muốn chọn rồi bấm «Thêm mẫu». Ảnh gốc hiện trong phần xem trước và ô nhập chữ sẵn sàng để bạn nhập nội dung mới.
+Sáu form có sẵn. Bấm «Các mẫu», chọn ảnh rồi bấm «Thêm mẫu». Web dùng nét gốc trước. Khi thiếu nét, web dựng phần bổ sung mới theo chiều cao, độ rộng và kiểu nét của mẫu. Bật «Chỉ dùng nét có trong ảnh gốc» ở một JOB nếu muốn giới hạn JOB đó ở các nét đã có trong ảnh.
 
-Chế độ «Chỉ dùng nét có trong ảnh gốc» được bật mặc định cho từng JOB. Bản này dùng nét từ cùng một ảnh mẫu, gồm cả các từ có nét nối liền. Khi thiếu chữ hoặc dấu trong ảnh tham chiếu, phần xem trước liệt kê cụ thể những ký tự cần bổ sung. Cần thêm ảnh chữ gốc để mở rộng bộ nét. Bỏ chọn chế độ này nếu muốn dùng nét phục dựng.
+Ảnh riêng. Bấm «Chọn nhiều ảnh» để tải ảnh lên. Trong từng JOB, mở «Lấy nét chữ từ ảnh tải lên», nhập nội dung có sẵn trong ảnh đúng khoảng trắng và cách xuống dòng, rồi bấm «Lấy nét gốc». Web có thể lấy cả từ và các chữ tách riêng trên ảnh rõ, thẳng và nền đều. Đặt nội dung mới ở ô «Nhập chữ mới cho ảnh này», sau đó bấm «Xem ảnh». Chữ chưa có mẫu được bổ sung theo đặc điểm đo được từ ảnh. Nét bổ sung có thể khác chữ viết gốc.
 
-Nhập đúng nội dung mẫu với thiết lập mặc định để dùng lại chính ảnh gốc. «Tạo tất cả PNG» xuất ở chiều rộng 2160 px. Bật «Xuất đủ 3 tỷ lệ» để tạo ảnh 3:4, 1:1 và 9:16 cho mỗi JOB.
+Bộ chữ mỗi form gồm 186 chữ hoa và thường, bao gồm đầy đủ 12 nhóm nguyên âm tiếng Việt với sáu thanh, Đ/đ và các chữ Latin. Ngoài ra có 10 chữ số, toàn bộ ký hiệu ASCII và các dấu thông dụng như ₫, …, “ ”, « », ×, ÷, –, —. Bảng minh họa ở bang-chu/index.html. Sáu ảnh gốc ở thư mục anh-goc.
 
-Đã kiểm tra trên Chromium với giao diện di động.
+«Tạo tất cả PNG» xuất ảnh rộng 2160 px. Có thể xuất tỷ lệ 3:4, 1:1 hoặc 9:16, rồi chọn «Chia sẻ ZIP».
