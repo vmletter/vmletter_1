@@ -1,11 +1,11 @@
 VM BATCH V35
 
-Giải nén ZIP rồi mở index.html. Để cập nhật GitHub Pages, đưa các tệp và hai thư mục bên trong ZIP lên thư mục gốc của trang.
+Giải nén ZIP rồi mở index.html. Trên iPhone, giải nén trong ứng dụng Tệp. Ở thư mục gốc của repo GitHub, chọn Add file → Upload files rồi chọn tất cả các tệp đã giải nén. Bấm Commit changes để lưu vào nhánh dùng cho GitHub Pages.
 
 Sáu form có sẵn. Bấm «Các mẫu», chọn ảnh rồi bấm «Thêm mẫu». Web dùng nét gốc trước. Khi thiếu nét, web dựng phần bổ sung mới theo chiều cao, độ rộng và kiểu nét của mẫu. Bật «Chỉ dùng nét có trong ảnh gốc» ở một JOB nếu muốn giới hạn JOB đó ở các nét đã có trong ảnh.
 
 Ảnh riêng. Bấm «Chọn nhiều ảnh» để tải ảnh lên. Trong từng JOB, mở «Lấy nét chữ từ ảnh tải lên», nhập nội dung có sẵn trong ảnh đúng khoảng trắng và cách xuống dòng, rồi bấm «Lấy nét gốc». Web có thể lấy cả từ và các chữ tách riêng trên ảnh rõ, thẳng và nền đều. Đặt nội dung mới ở ô «Nhập chữ mới cho ảnh này», sau đó bấm «Xem ảnh». Chữ chưa có mẫu được bổ sung theo đặc điểm đo được từ ảnh. Nét bổ sung có thể khác chữ viết gốc.
 
-Bộ chữ mỗi form gồm 186 chữ hoa và thường, bao gồm đầy đủ 12 nhóm nguyên âm tiếng Việt với sáu thanh, Đ/đ và các chữ Latin. Ngoài ra có 10 chữ số, toàn bộ ký hiệu ASCII và các dấu thông dụng như ₫, …, “ ”, « », ×, ÷, –, —. Bảng minh họa ở bang-chu/index.html. Sáu ảnh gốc ở thư mục anh-goc.
+Bộ chữ mỗi form gồm 186 chữ hoa và thường, bao gồm đầy đủ 12 nhóm nguyên âm tiếng Việt với sáu thanh, Đ/đ và các chữ Latin. Ngoài ra có 10 chữ số, toàn bộ ký hiệu ASCII và các dấu thông dụng như ₫, …, “ ”, « », ×, ÷, –, —. Bảng minh họa ở bang-chu-v35.html. Sáu ảnh gốc có tên bắt đầu bằng anh-goc-v35-.
 
 «Tạo tất cả PNG» xuất ảnh rộng 2160 px. Có thể xuất tỷ lệ 3:4, 1:1 hoặc 9:16, rồi chọn «Chia sẻ ZIP».
